@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+  body{
+    color: aliceblue;
+    background-color: black;
+  }
+  .me{
+    background-color:white;
+    width: 50%;
+    height:40px;
+    margin: 8px;
+    font-weight: bold;
+    font-size: large;
+
+  }
+  .details{
+    font-weight: bolder;
+    margin: 10px;
+    text-align:center;
+    
+
+  }
+  table ,th, td{
+    border:5px solid white;
+    border-collapse: collapse;
+    width: 70%;
+    height: 70px;
+    
+
+  }
+</style>
+
+<h2>PERSONAL DETAILS</h2>
+
+<form>
+  
+  <label > Name:</label><input type="text" class="me"><br>
+  <label >Surname:</label><input type="text" class="me"   ><br>
+  <label >password:</label><input type="text" class="me"><br><hr>
+ <div class="details">
+  Gender <br>
+      <input type="radio">male
+     <input type="radio">female<br>
+     Hobbies<br>
+     <input type="checkbox">Sport
+     <input type="checkbox">Music
+     <input type="checkbox">Reading<br>
+     Country:
+     <select name="example">
+      <option value="A">Kenya</option>
+      <option value="B">Uganda</option>
+      <option value="-">Tanzania</option>
+      <option value="-">Somalia</option>
+      <option value="-">Rwanda</option>
+      </select> <br><hr>
+    </div> 
+    
+
+
+</form>
+Your opinion:<br>
+<textarea name="message" style="width: 300px;height: 250px;">
+  Tell us what you think!
+</textarea> <br><hr>
+
+
+
+
+<input type="submit" value="Submit">
+<input type="Reset" value="Reset">
+<br> <hr> 
+
+<b>The following table shows all the primary school ,secondary school and university I attended in kenya. </b>
+<table>
+  <th>SCHOOL</th>
+  <th> COUNTY</th>
+  <th>YEAR OF STUDY</th>
+  <tr>
+    <td>Nursery</td>
+    <td>Homabay</td>
+    <td>2006-2008</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Primary</td>
+        <tr>
+          <td>Nairobi</td>
+          <td>2008-2010</td>
+        </tr>
+    <td> Mombasa</td>
+    <td>2010-2013</td>
+  </tr>
+  <tr>
+  <td rowspan="3">Secondary</td>
+        <tr>
+          <td>Kisumu</td>
+          <td>2013-2015</td>
+        </tr>
+    <td>Kiambu</td>
+    <td>2015-2019</td>
+</tr>
+</tr>
+<td >university</td>    
+    <td> Murang'a</td>
+    <td>2019-2022</td>
+  <tr>
+</table>
+</body>
+</html>
