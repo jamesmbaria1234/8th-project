@@ -5,7 +5,6 @@ body{
     
 }
 h1{
-    background-color: blanchedalmond;
     text-align: center;
     border-radius: 50px;
 }
@@ -53,4 +52,26 @@ table , th ,td {
 .button{
 box-shadow: 10px 10px 10px black;
 }
-
+.section{
+    background-color:rgb(131, 131, 202);
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+.pic{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    grid-template-columns: repeat(2,1fr);
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.full{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
