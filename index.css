@@ -51,6 +51,7 @@ box-shadow: 10px 10px 10px black;
     width: 90%;
     margin: auto;
     padding: 15px;
+    margin-bottom:40px;
 }
 .pic{
     display: grid;
