@@ -47,7 +47,7 @@ table , th ,td {
 box-shadow: 10px 10px 10px black;
 }
 .section{
-    background-color:rgb(131, 131, 202);
+    background-color:darkgrey;
     width: 90%;
     margin: auto;
     padding: 15px;
